@@ -1,0 +1,204 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="row row-block text-center">
+    <div class="col-12 welcome-text">
+        <h1 class="text-h1">Welcome to my Page</h1>
+        <p>Continue below for a brief personal Timeline</p>
+    </div>
+</div>
+
+<!-- ---------------------------- Carousel ---------------------------- -->
+<div id="div-carousel" class="container">
+    <div id="carousel" class="carousel slide d-none d-sm-block" data-ride="carousel" data-interval="6000">
+    <!-- d-none = hides carousel, d-md-block = show carousel when md window, data-interval = img display time -->
+      <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ul>
+      <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="/developer">
+                <img src="static/images/pc_desk.jpg" alt="pc on a desk">
+                <div class="carousel-caption carousel-caption-fisrt">
+                    <h2 class="carousel-caption-h2">Are you looking <br>for a Developer?</h2>
+                    <hr class="carousel-caption-hr">
+                    <p class="carousel-caption-p">You came to the right place!</p>
+                </div>
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="/engineer">
+                <img src="static/images/tools_desk.jpg" alt="tools on a desk">
+                <div class="carousel-caption carousel-caption-second">
+                    <h2 class="carousel-caption-h2">Still looking for<br>an Engineer?</h2>
+                    <hr class="carousel-caption-hr">
+                    <p class="carousel-caption-p">Here you will find only<br>Creativity and Experience...</p>
+                </div>
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="/more">
+                <img src="static/images/ideas_desk.jpg" alt="animation elevates collaboration">
+                <div class="carousel-caption carousel-caption-third">
+                    <h2 class="carousel-caption-h2">Do you have an idea for a project?</h2>
+                    <hr class="carousel-caption-hr">
+                    <p class="carousel-caption-p">Educational or Social or Something else?</p>
+                </div>
+            </a>
+        </div>
+      </div>
+      <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+<!-- -------------------- End of Carousel -------------------- -->
+
+<!-- ---------------- Link Images ---------------- -->
+<div class="icon-container">
+    <div class="row row-block text-center">
+        <div class="col-sm-4 icon-block">
+            <a href="/developer">
+            <h3 class="text-h3 icon-title">Looking for a Developer?</h3>
+            <img class="icon" src="static/images/laptop_icon.png" alt="laptop icon"></a>
+        </div>
+        <div class="col-sm-4 icon-block">
+            <a href="/engineer">
+            <h3 class="text-h3 icon-title">Looking for an Engineer?</h3>
+            <img class="icon" src="static/images/engineer_professions.png" alt="icons from engineering professions">
+            </a>
+        </div>
+        <div class="col-sm-4 icon-block">
+            <a href="/more#more_details">
+            <h3 class="text-h3 icon-title">Looking for a Collegue?</h3>
+            <img class="icon" src="static/images/brain.png" alt="a colorful brain">
+            </a>
+        </div>
+    </div>
+    <div class="row row-block text-center">
+        <div class="col-sm-4 icon-block">
+            <a href="/more">
+            <h3 class="text-h3 icon-title">Research / Publications</h3>
+            <img class="icon" src="static/images/tree.png" alt="the earth inside a tree">
+            </a>
+        </div>
+        <div class="col-sm-4 icon-block">
+            <a href="/more">
+            <h3 class="text-h3 icon-title">Details</h3>
+            <img class="icon" src="static/images/stairs.png" alt="an infographic ladder">
+            </a>
+        </div>
+        <div class="col-sm-4 icon-block">
+            <a href="/contact">
+            <h3 class="text-h3 icon-title">Contact</h3>
+            <img class="icon" src="static/images/contact.png" alt="social media signs">
+            </a>
+        </div>
+    </div>
+</div>
+<!-- ---------------- End of Link Images ----------------- -->
+
+<!-- ---------------- Timeline ----------------- -->
+<div>
+    <h2 class="text-h2 text-center">Brief Personal Timeline:</h2>
+    <h3 class="text-h3 text-center">(<i>Click to reveal content</i>)</h3>
+</div>
+<div class="container timeline">
+    <div class="row timeline-row align-items-center">
+        <div class="col-md-2 timeline-year text-center">
+            <h2 class="text-h2">2018</h2>
+            <div class="row justify-content-center">
+                <div class="timeline-year-graphic"></div>
+            </div>
+        </div>
+        <div class="col-md-10 timeline-block">
+            <h3 class="text-h3 timeline-content-title">Berlin</h3>
+            <div class="timeline-content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.</p></div>
+            <h3 class="text-h3 timeline-content-title">Shift Career</h3>
+            <div class="timeline-content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.</p></div>
+            <h3 class="text-h3 timeline-content-title">EADV</h3>
+            <div class="timeline-content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.</p></div>
+        </div>
+    </div>
+    <div class="row timeline-row align-items-center">
+        <div class="col-md-2 timeline-year text-center">
+            <h2 class="text-h2">2017</h2>
+            <div class="row justify-content-center">
+                <div class="timeline-year-graphic"></div>
+            </div>
+        </div>
+        <div class="col-md-10 timeline-block">
+            <h3 class="text-h3 timeline-content-title">Developing</h3>
+            <div class="timeline-content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.</p></div>
+            <h3 class="text-h3 timeline-content-title">Tutor for minor refugees</h3>
+            <div class="timeline-content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.</p></div>
+        </div>
+    </div>
+    <div class="row timeline-row align-items-center">
+        <div class="col-md-2 timeline-year text-center">
+            <h2 class="text-h2">2016</h2>
+            <div class="row justify-content-center">
+                <div class="timeline-year-graphic"></div>
+            </div>
+        </div>
+        <div class="col-md-10 timeline-block">
+            <h3 class="text-h3 timeline-content-title">Medical device research</h3>
+            <div class="timeline-content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.</p></div>
+            <h3 class="text-h3 timeline-content-title">Tutor for minor refugees</h3>
+            <div class="timeline-content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.</p></div>
+        </div>
+    </div>
+<!-- ---------------- End of Timeline ----------------- -->
+
+{% endblock %}
