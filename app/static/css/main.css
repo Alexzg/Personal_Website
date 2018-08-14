@@ -1,0 +1,80 @@
+body {
+    font-size: 16px;
+    color: rgb(78, 76, 76);
+    background-color: rgb(237, 237, 237);
+}
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+p {
+    font-size: 1em;
+    color: white;
+}
+/* ------------------------------   .classes   -------------- */
+.back-image {
+    background-image: url(../images/back_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row-block {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.text-h1 {
+    font-size: 2.4em;
+}
+.text-h2 {
+    font-size: 1.9em;
+}
+.text-h3 {
+    font-size: 1.4em;
+}
+.text-h4 {
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+.nav-link {
+    color: rgb(176, 176, 176);
+}
+.nav-link-active {
+    color: lightgreen;
+}
+
+/* ------------------------------   @media   -------------- */
+/* window size "md" */
+@media (max-width: 990px) {
+    p {
+        font-size: 0.8em;
+    }
+    .text-h1 {
+        font-size: 1.8em;
+    }
+    .text-h2 {
+        font-size: 1.6em;
+    }
+    .text-h3 {
+        font-size: 1.1em;
+    }
+    .text-h4 {
+        font-size: 1em;
+    }
+  }
+/* window size "sm" */
+  @media (max-width: 767px) {
+      p {
+          font-size: 0.6em;
+      }
+      .row {
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+      .text-h1 {
+          font-size: 1.6em;
+      }
+    }

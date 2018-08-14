@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Alexandros Zogkas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/home_page.css') }}">
+        <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='images/letter_a.png') }}"/>
+    </head>
+    <body class="back-image">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand text-primary" href="/">Alexandros Zogkas</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">OPPORTUNITIES</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/developer">Looking for Developer?</a>
+                            <a class="dropdown-item" href="/engineer">Looking for Engineer?</a>
+                            <a class="dropdown-item" href="/more">Looking for Colleague?</a>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="/developer">DEVELOPER</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/details">MORE</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="/contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="block-body" class="container-fluid">
+            {% block body %}{% endblock %}
+        </div>
+
+        <div id="footer">
+            <p><small>Designed & Coded by &copy; Alexzg, 2018</small></p>
+        </div>
+    </body>
+</html>
