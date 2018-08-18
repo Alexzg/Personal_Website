@@ -1,0 +1,11 @@
+<p>
+Just working in a company, is not enough for me.
+<br><br>
+After came to know more about the world of engineering and 
+software development I decided to change my routine.
+<br>
+As a first step, I raised a self-funding project to supply my next steps.
+Then I quitted my job, in order to deepen my understanding to new topics.
+It was then, that I dediced to book tickets for a new place to test the
+odds.
+</p>

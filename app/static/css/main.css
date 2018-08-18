@@ -67,9 +67,6 @@ p {
   }
 /* window size "sm" */
   @media (max-width: 767px) {
-      p {
-          font-size: 0.6em;
-      }
       .row {
           margin-top: 10px;
           margin-bottom: 10px;

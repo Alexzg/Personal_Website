@@ -1,0 +1,15 @@
+<p>
+Unknown tasks while working for a small company
+<br><br>
+After my internship, I received a proposal to work as a full-time 
+employee in this same company. But, due to the small size the company had,
+the only position I could possess is that of the 'Sales engineer'.
+<br>
+From that time and for two months I ran the sales department, responsible
+for the creation of a network in United Kingdom (I was the
+only one in this department). Sales is not my strength,
+so reaching info for companies or ask for contact details from key people 
+was not easy. But, I came with a tech solution which gave the
+company the first client. In the end, I refused to further work in sales; 
+This job was not for me.
+</p>

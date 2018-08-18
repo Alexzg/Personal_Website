@@ -1,0 +1,10 @@
+<p>
+Alexander Technological Educational Institute of Thessaloniki, Greece
+<br>
+Dept Automation Engineering, Undergraduate studies.
+<br><br>
+My studies started in February 2009. We had a broad range of
+topics to study like electronics, programming, mechanics, computer 
+networks, robotics and design. All of them in theory and practice
+inside labs.
+</p>

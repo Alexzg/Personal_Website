@@ -1,0 +1,17 @@
+<p>
+When I started it was like someone through me in deep water 
+and said, swim.
+<br><br>
+After some months in a manufacturing company, a gap in the Quality
+Control of Mechanical parts, forced the management to re-assign that 
+position to me. Although in my studies I received some basic training 
+in mechanical engineering, I was not ready for such a task.
+<br>
+To be efficient and fast during the control, as I also had to work on 
+tasks for other positions I possessed ,I developed two tools. A 
+software that helped me with repetitive tasks and a QC procedure that 
+mimimizes the knowledge the QC engineer needs. Both of
+them could also be used even if someone had no knowledge on mechanical
+engineering. So, when I was planning to quit this job, it was easier for
+someone to take my place with minimum training.
+</p>

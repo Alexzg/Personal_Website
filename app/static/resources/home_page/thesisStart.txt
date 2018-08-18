@@ -1,0 +1,15 @@
+<p>
+Making an idea, reality.
+<br><br>
+During my military service, I contacted a professor of 
+Biomedical engineering in my department with whome discussed for
+a number of ideas. Then he told me that he wanted to see if it
+is possible to create a device that can display to a dermatologist, a 
+map of the skin of a patient.
+<br>
+There was no funding from the university, so the project was really 
+difficult to be completed. In addition, conferences, business 
+competitions and my job forced me to postpone the date of my Thesis
+completion. In the end, with the great team I had, it could only be 
+a success. 
+</p>

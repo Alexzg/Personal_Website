@@ -1,0 +1,13 @@
+<p>
+Even before university I was curius about AI.
+<br><br>
+At some point I decided to implement some algorithms to my own 
+projects, to find out more on this topic. Python was the only choice 
+and after some tutorials and guide books, it was the time to search for 
+more. As a result of the low fees, I chose specializations and courses on 
+'Coursera'and 'Udemy'.
+<br>
+Until now I finished two specializations 'Applied Data Science with 
+Python' and 'Deep Learning', while I still have a course on 'Reinforcement
+Learning'.
+</p>
