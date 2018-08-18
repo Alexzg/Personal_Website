@@ -1,0 +1,11 @@
+<p>30th IEEE International Symposium on Computer-Based Medical Systems<br>
+DOI: 10.1109/CBMS.2017.86.<br><br>
+The purpose of this paper is to provide initial results from
+evaluating the prototype device and to propose statistical processes which can
+reveal diagnostically meaningful patterns in the data.<br>
+Despite the fact that the gold standard for melanoma diagnosis remains pathologic
+examination, this form of cancer has the potential to be diagnosed
+through non-invasive and radiation-free techniques that are based on
+electrical impedance spectroscopy (EIS). For this reason, the aim of
+this study was to design a prototype device (2nd generation)
+which will be able to assist clinicians detect early stage melanoma.</p>

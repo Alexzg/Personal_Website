@@ -1,0 +1,9 @@
+<p>XIV MEDITERRANEAN CONFERENCE ON MEDICAL AND
+BIOLOGICAL ENGINEERING AND COMPUTING <br>DOI: 10.1007/978-3-319-32703-7_137.<br><br>
+The DermaSense scanner is based on electrical impedance tomography, a promising non-invasive,
+radiation-free and portable imaging technique. It is designed for
+clinical and outdoor operation and the associated translational
+software does not require specialized training for the operator. <br>
+Initial testing results of the device are promising, suggesting it
+can specifically distinguish between the presence and absence
+of a nevus in the area of skin being scanned.</p>

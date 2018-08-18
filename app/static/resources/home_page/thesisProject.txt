@@ -1,0 +1,11 @@
+<p>Thesis medical device - to be continued
+<br><br>
+After the defence for my Thesis, I thought that it would be possible to
+improve the design of the medical device and of course the accompanied 
+software. The new design for the device seemed promicing and the 
+research team 'DermaSense' was created, in order to further improve the 
+project and conduct medical pilot studies.
+<br>
+The team consists of Doctors, a Biomedical engineer, 
+a Mathematician and myself as an R&D engineer. 
+</p>

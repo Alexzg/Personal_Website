@@ -1,0 +1,13 @@
+<p>
+After I finished a code challenge for an interview using Python 
+(Flask), I realised how important it is to see the full picture 
+of web development. 
+<br><br>
+Thus, I started free online courses for 'Frontend' development, 
+which means HTML, CSS, Javascript, Bootstrap, jQuery and React. 
+<br>
+Lucky me, I have many years of coding and debugging in other languages.
+This website is also a part of projects I designed, as a way to 
+practice and test. My next milestones are the backend libraries 
+of Django and Flask.
+</p>
